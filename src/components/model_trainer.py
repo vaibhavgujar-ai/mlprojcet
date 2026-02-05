@@ -22,7 +22,7 @@ warnings.filterwarnings('ignore')
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path: str = os.path.join('artifacts', 'model.pkl')
+    trained_model_file_path: str = os.path.join('artifacts', 'preprocessor.pkl')
 
 class ModelTrainer:
     def __init__(self):
